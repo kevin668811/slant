@@ -440,6 +440,31 @@
       font-size: 15px;
     }
 
+    .flow-reference {
+      max-width: 420px;
+      margin: 18px auto 0;
+      padding: 16px;
+      border-radius: 8px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+    }
+
+    .flow-reference h3 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+    .flow-reference video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      object-fit: cover;
+      border-radius: 8px;
+      background: #111;
+    }
+
     .do-dont {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -736,6 +761,10 @@
               <span>Colores, packs, tamaños compatibles y precio promocional.</span>
             </div>
           </div>
+        </div>
+        <div class="flow-reference">
+          <h3>Video de referencia</h3>
+          <video src="assets/content-flow-reference.mp4" aria-label="Video de referencia para la secuencia de creación de contenido" controls playsinline preload="metadata"></video>
         </div>
       </div>
     </section>
