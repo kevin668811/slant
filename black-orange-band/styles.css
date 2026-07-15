@@ -144,6 +144,30 @@ h1 {
   grid-row: 1 / 3;
 }
 
+.hero-video-frame {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  padding: 12px;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #111;
+}
+
+.hero-video-frame + .hero-gallery {
+  display: none;
+}
+
 .hero-facts {
   text-align: left;
   padding: 28px;
